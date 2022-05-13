@@ -1,0 +1,324 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.32f1 (12f8b0834f07) revision 1243312'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22000) 64bit CoreSingleLanguage' Language: 'en' Physical Memory: 16151 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.32f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/FileKuliah/GC/git/SmartGamingFP/FP_GC_2D
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+62311
+Successfully changed project path to: D:/FileKuliah/GC/git/SmartGamingFP/FP_GC_2D
+D:/FileKuliah/GC/git/SmartGamingFP/FP_GC_2D
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 35.21 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.32f1 (12f8b0834f07)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/FileKuliah/GC/git/SmartGamingFP/FP_GC_2D/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 Laptop GPU (ID=0x2560)
+    Vendor:   
+    VRAM:     6023 MB
+    Driver:   30.0.15.1259
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56472
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001053 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 35.84 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.439 seconds
+Domain Reload Profiling:
+	ReloadAssembly (440ms)
+		BeginReloadAssembly (46ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (340ms)
+			LoadAssemblies (44ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (111ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (23ms)
+			SetupLoadedEditorAssemblies (133ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (36ms)
+				BeforeProcessingInitializeOnLoad (13ms)
+				ProcessInitializeOnLoadAttributes (60ms)
+				ProcessInitializeOnLoadMethodAttributes (20ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.002215 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 35.64 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.912 seconds
+Domain Reload Profiling:
+	ReloadAssembly (912ms)
+		BeginReloadAssembly (152ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (30ms)
+		EndReloadAssembly (691ms)
+			LoadAssemblies (112ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (219ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (35ms)
+			SetupLoadedEditorAssemblies (262ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (36ms)
+				BeforeProcessingInitializeOnLoad (62ms)
+				ProcessInitializeOnLoadAttributes (143ms)
+				ProcessInitializeOnLoadMethodAttributes (15ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.49 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2200 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 97.0 MB.
+System memory in use after: 96.9 MB.
+
+Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 2631.
+Total: 2.466500 ms (FindLiveObjects: 0.137500 ms CreateObjectMapping: 0.037300 ms MarkObjects: 2.153000 ms  DeleteObjects: 0.137600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Sprites/Rocky Roads/cannon fire smoke.png
+  artifactKey: Guid(1b68998ae4241a34cb26be0072136d63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Rocky Roads/cannon fire smoke.png using Guid(1b68998ae4241a34cb26be0072136d63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be96d1ebdc9c27885d76f63a543ae57f') in 0.077534 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/Sprites/Rocky Roads/bomb explosion.png
+  artifactKey: Guid(16750611f96d74c438bc7e972aebe822) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Rocky Roads/bomb explosion.png using Guid(16750611f96d74c438bc7e972aebe822) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02ee6738c3d6184fc55f0ebb4c846b19') in 0.013071 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/Sprites/Rocky Roads/bullet.png
+  artifactKey: Guid(d54c56738dae5904ba22f20d4ca8c234) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Rocky Roads/bullet.png using Guid(d54c56738dae5904ba22f20d4ca8c234) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f838b1d65818125a3361981142e4c27b') in 0.014395 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000159 seconds.
+  path: Assets/Sprites
+  artifactKey: Guid(f4366ce1e8d9966458a4e0727afd4760) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites using Guid(f4366ce1e8d9966458a4e0727afd4760) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f603bc1fae22c97b82fb3e9b1c9eb93b') in 0.005187 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/Sprites/Rocky Roads/tileset snow.png
+  artifactKey: Guid(7304313c26356e3428585dfaba41f091) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Rocky Roads/tileset snow.png using Guid(7304313c26356e3428585dfaba41f091) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8984383f121341234fed822f4dc4a797') in 0.016168 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000155 seconds.
+  path: Assets/Sprites/Rocky Roads/button.png
+  artifactKey: Guid(070fa443ee5534d4db7422b07f4f9acc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Rocky Roads/button.png using Guid(070fa443ee5534d4db7422b07f4f9acc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50a22e262f76a9f4654da17ed954fca6') in 0.012613 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/Sprites/Rocky Roads/water_8frames.png
+  artifactKey: Guid(992dc6d79ee41da40b60965b0b7fff4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Rocky Roads/water_8frames.png using Guid(992dc6d79ee41da40b60965b0b7fff4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da60a2724617d36eaa0a4e1b2ae4b3c8') in 0.012650 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/Sprites/Rocky Roads/background1.png
+  artifactKey: Guid(409ab3ab02f0f3843944614919cc1403) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Rocky Roads/background1.png using Guid(409ab3ab02f0f3843944614919cc1403) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6101fc39c46cda7b8614c285c43eca78') in 0.014543 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000144 seconds.
+  path: Assets/Sprites/Rocky Roads/bomb.png
+  artifactKey: Guid(2a6eb43c23c7fd24c95d3938095f594f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Rocky Roads/bomb.png using Guid(2a6eb43c23c7fd24c95d3938095f594f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a87a1f37a48fb14a2e5f43b587d6c93f') in 0.014004 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/Sprites/Rocky Roads/saw blade.png
+  artifactKey: Guid(07092e5fdc754014fac95031229c0918) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Rocky Roads/saw blade.png using Guid(07092e5fdc754014fac95031229c0918) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '223ad77aa19e7e14e48c8e6a038df3f8') in 0.012265 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/Sprites/Rocky Roads/sign.png
+  artifactKey: Guid(07648a45c03444c4ca9269dfe1054efb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Rocky Roads/sign.png using Guid(07648a45c03444c4ca9269dfe1054efb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f5354a881e98da44cfcd51d4f958168') in 0.014273 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/Sprites/Rocky Roads/slime.png
+  artifactKey: Guid(6c9479c5e79fe004280f64afd8eb62df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Rocky Roads/slime.png using Guid(6c9479c5e79fe004280f64afd8eb62df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a52690edc9999d65824c2a588277bcf2') in 0.012468 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/Sprites/Rocky Roads/lava.png
+  artifactKey: Guid(b14c75c1c9e17ae48b31b3c2508a9019) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Rocky Roads/lava.png using Guid(b14c75c1c9e17ae48b31b3c2508a9019) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e97cca074f752e97897d1715cc8056e0') in 0.011148 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/Sprites/Rocky Roads/bounce pad.png
+  artifactKey: Guid(3359f85e23605064abf6968b2abddbf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Rocky Roads/bounce pad.png using Guid(3359f85e23605064abf6968b2abddbf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95b9006efa9837a64e83cde064b0ccfe') in 0.013044 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/Sprites/Rocky Roads/background2.png
+  artifactKey: Guid(5deca56a75eeaa644b469c3c8f1a041f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Rocky Roads/background2.png using Guid(5deca56a75eeaa644b469c3c8f1a041f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '923aa181424e6bc4468d7cb5a7b0fc85') in 0.013203 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/Sprites/Rocky Roads/tileset lava.png
+  artifactKey: Guid(cc7b0a7846e6e2f40a6fc197d8ea38f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Rocky Roads/tileset lava.png using Guid(cc7b0a7846e6e2f40a6fc197d8ea38f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a075a31e8bde31b98b6978ac3c2a7a8') in 0.013830 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/Sprites/Rocky Roads/crate.png
+  artifactKey: Guid(57f7d9881a8adc748b13b483a07f8580) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Rocky Roads/crate.png using Guid(57f7d9881a8adc748b13b483a07f8580) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e6f00c837d31a5adab60b2de3155742') in 0.012340 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000141 seconds.
+  path: Assets/Sprites/Rocky Roads/coin.png
+  artifactKey: Guid(fe96633314d0e454888ba126c20e6da8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Rocky Roads/coin.png using Guid(fe96633314d0e454888ba126c20e6da8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45956ee710df79ea5d533253f52b37b4') in 0.014166 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000155 seconds.
+  path: Assets/Sprites/Rocky Roads/ui.png
+  artifactKey: Guid(9937a759e42d6b84e982e2549340e0b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Rocky Roads/ui.png using Guid(9937a759e42d6b84e982e2549340e0b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8295bbf75d92bdb58917981bec8036d') in 0.012920 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/Sprites/Rocky Roads/clouds.png
+  artifactKey: Guid(92263e948eedcb04799126f755635395) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Rocky Roads/clouds.png using Guid(92263e948eedcb04799126f755635395) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8e96c033699ac29bc3b8c9aeb59f2b7') in 0.013156 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/Sprites/Rocky Roads/heart.png
+  artifactKey: Guid(88aba123a4d98c344bc5004f798bbc7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Rocky Roads/heart.png using Guid(88aba123a4d98c344bc5004f798bbc7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3e27fb6637179054587dab5865d2e60') in 0.015689 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/Sprites/Rocky Roads/sun.png
+  artifactKey: Guid(37ff3391f3ea68e4f9ddaf0062f3fb55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Rocky Roads/sun.png using Guid(37ff3391f3ea68e4f9ddaf0062f3fb55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b411a276d5881ba9ccb9fe5acdf1c874') in 0.014327 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000305 seconds.
+  path: Assets/Sprites/Rocky Roads/background3.png
+  artifactKey: Guid(24fb8a873b20d03469db6b18db0634f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Rocky Roads/background3.png using Guid(24fb8a873b20d03469db6b18db0634f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63199e84149ea739ed3878f0eff2fa22') in 0.012850 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/Sprites/Rocky Roads/tileset forest.png
+  artifactKey: Guid(f6aa322bb0154d44f852b73b16f1c29f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Rocky Roads/tileset forest.png using Guid(f6aa322bb0154d44f852b73b16f1c29f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '260e685bd00e4867755a73ce4faadba2') in 0.014288 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/Sprites/Rocky Roads/bullet windtrail.png
+  artifactKey: Guid(4a57d0d5e4ad6df4a809c6515ba9d116) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Rocky Roads/bullet windtrail.png using Guid(4a57d0d5e4ad6df4a809c6515ba9d116) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '286466f0518b010cae7699172ebd8bb5') in 0.035208 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000301 seconds.
+  path: Assets/Sprites/Rocky Roads/ladder.png
+  artifactKey: Guid(9bba9f206c4131d439aebf0d32967f35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Rocky Roads/ladder.png using Guid(9bba9f206c4131d439aebf0d32967f35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49c186471371b5ab95a060d43021e161') in 0.012304 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/Sprites/Rocky Roads/spikes.png
+  artifactKey: Guid(d94f80dd66030884a80c7f74eecb8b1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Rocky Roads/spikes.png using Guid(d94f80dd66030884a80c7f74eecb8b1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cbe0d16aaa142b6b2f57ef14e436c84') in 0.013089 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/Sprites/Rocky Roads
+  artifactKey: Guid(ded1ef5f0c5d47b4c996e994b7132557) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Rocky Roads using Guid(ded1ef5f0c5d47b4c996e994b7132557) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4aae98fed2c5eb93f52fd09142bfcba') in 0.004849 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/Sprites/Rocky Roads/cannon.png
+  artifactKey: Guid(83465f40cf5f75e419800daac2aac7eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Rocky Roads/cannon.png using Guid(83465f40cf5f75e419800daac2aac7eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adf6a59107628f5abe03a9feeb76a2c1') in 0.013919 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/Sprites/Rocky Roads/fire.png
+  artifactKey: Guid(9b9153334f140c64cbf3d48da9e4cf84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Rocky Roads/fire.png using Guid(9b9153334f140c64cbf3d48da9e4cf84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '247b30f2d5b7869f710757760cd7be00') in 0.012602 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000158 seconds.
+  path: Assets/Sprites/Rocky Roads/shine.png
+  artifactKey: Guid(19a57309b44e4c6428076a3c9e950a86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Rocky Roads/shine.png using Guid(19a57309b44e4c6428076a3c9e950a86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fcba54198c61e7b92c7e0269b2f823f') in 0.011799 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 206.264220 seconds.
+  path: Assets/Sprites/Rocky Roads/Notes.txt
+  artifactKey: Guid(b292f67dd1a7eb3479aab29aaa7a52d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Rocky Roads/Notes.txt using Guid(b292f67dd1a7eb3479aab29aaa7a52d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb00e76ea9b19d7ddbecceaffe880523') in 0.028787 seconds 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
