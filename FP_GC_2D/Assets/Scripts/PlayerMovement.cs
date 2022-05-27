@@ -5,6 +5,8 @@ using UnityEngine;
 public class PlayerMovement : MonoBehaviour
 {
     Rigidbody2D rb;
+    [SerializeField] private float jumpForce = 10f;
+    [SerializeField] private float speed = 5f;
     // Start is called before the first frame update
     void Start()
     {
@@ -16,10 +18,10 @@ public class PlayerMovement : MonoBehaviour
     {
         // Debug.Log(isGrounded());
         float dirX = Input.GetAxisRaw("Horizontal");
-        rb.velocity = new Vector2(dirX * 5f, rb.velocity.y);
+        rb.velocity = new Vector2(dirX * speed, rb.velocity.y);
 
         if(Input.GetButtonDown("Jump") && isGrounded()){
-            rb.velocity = new Vector2(rb.velocity.x, 5f);
+            rb.velocity = new Vector2(rb.velocity.x, jumpForce);
         }
     }
 

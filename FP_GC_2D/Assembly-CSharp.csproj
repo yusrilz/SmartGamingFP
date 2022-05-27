@@ -38,6 +38,7 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts\PlayerMovement.cs" />
      <Compile Include="Assets\Scripts\GroundCheck.cs" />
+     <Compile Include="Assets\Scripts\EnemyAI.cs" />
      <None Include="Assets\Sprites\Rocky Roads\Notes.txt" />
     <Reference Include="UnityEngine">
         <HintPath>C:\Program Files\Unity\2020.3.32f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
@@ -647,6 +648,10 @@
       <Project>{1d3523f7-400e-085d-6f0d-ad106938e2a7}</Project>
       <Name>Unity.Timeline</Name>
     </ProjectReference>
+    <ProjectReference Include="PackageToolsEditor.csproj">
+      <Project>{f1ca9ef9-e05f-cf83-e751-ab9a22e3bfd5}</Project>
+      <Name>PackageToolsEditor</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.TextMeshPro.csproj">
       <Project>{445112a4-0f26-4442-d8a9-d4901a1a763b}</Project>
       <Name>Unity.TextMeshPro</Name>
@@ -695,6 +700,10 @@
       <Project>{881b7df4-a781-e0e0-ef86-a09c54054001}</Project>
       <Name>Unity.2D.IK.Runtime</Name>
     </ProjectReference>
+    <ProjectReference Include="AstarPathfindingProject.csproj">
+      <Project>{032cb651-cc89-a236-f433-bc663a4eafd6}</Project>
+      <Name>AstarPathfindingProject</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.2D.Animation.Triangle.Runtime.csproj">
       <Project>{2d925f51-bf10-8d67-2d67-373edec16fea}</Project>
       <Name>Unity.2D.Animation.Triangle.Runtime</Name>
@@ -719,6 +728,10 @@
       <Project>{0cb7b981-84f1-6b5f-16ca-938fc2722937}</Project>
       <Name>Unity.2D.Common.Runtime</Name>
     </ProjectReference>
+    <ProjectReference Include="AstarPathfindingProjectEditor.csproj">
+      <Project>{4943a152-54f1-e06b-dea8-d0870cc8f41f}</Project>
+      <Name>AstarPathfindingProjectEditor</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.2D.SpriteShape.Editor.csproj">
       <Project>{94920b73-0de4-58e9-cc14-43717cc84a2d}</Project>
       <Name>Unity.2D.SpriteShape.Editor</Name>
@@ -730,18 +743,6 @@
     <ProjectReference Include="Unity.2D.SpriteShape.Runtime.csproj">
       <Project>{e28c4dba-aac8-06c4-0b69-bf0e4883f9d8}</Project>
       <Name>Unity.2D.SpriteShape.Runtime</Name>
-    </ProjectReference>
-    <ProjectReference Include="AstarPathfindingProjectEditor.csproj">
-      <Project>{4943a152-54f1-e06b-dea8-d0870cc8f41f}</Project>
-      <Name>AstarPathfindingProjectEditor</Name>
-    </ProjectReference>
-    <ProjectReference Include="AstarPathfindingProject.csproj">
-      <Project>{032cb651-cc89-a236-f433-bc663a4eafd6}</Project>
-      <Name>AstarPathfindingProject</Name>
-    </ProjectReference>
-    <ProjectReference Include="PackageToolsEditor.csproj">
-      <Project>{f1ca9ef9-e05f-cf83-e751-ab9a22e3bfd5}</Project>
-      <Name>PackageToolsEditor</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

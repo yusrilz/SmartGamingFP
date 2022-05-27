@@ -7,7 +7,7 @@ public class GroundCheck : MonoBehaviour
     [SerializeField] private LayerMask platformLayerMask;
     public bool isGrounded;
     private void OnTriggerStay2D(Collider2D collider) {
-        isGrounded = collider != null && (((1 << collider.gameObject.layer) & platformLayerMask) != 0);
+        if(collider != null && collider.gameObject.layer != platformLayerMask) isGrounded = true;
         // Debug.Log(isGrounded);
     }
 
