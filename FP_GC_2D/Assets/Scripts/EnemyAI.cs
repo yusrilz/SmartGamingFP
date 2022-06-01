@@ -14,10 +14,16 @@ public class EnemyAI : MonoBehaviour
     bool reachedEndOfPath = false;
     Seeker seeker;
     Rigidbody2D rb;
+    public GameObject player;
+    private Transform playerPos;
+    private Vector2 currentPos;
+    public float distance = 5f;
     void Start()
     {
         seeker = GetComponent<Seeker>();
         rb = GetComponent<Rigidbody2D>();
+        playerPos = player.GetComponent<Transform>();
+        currentPos = GetComponent<Transform>().position;
 
         InvokeRepeating("UpdatePath", 0f, 0.5f);
     }
@@ -36,21 +42,37 @@ public class EnemyAI : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
-        if(path == null) return;
-        
-        if(currentWaypoint >= path.vectorPath.Count){
-            reachedEndOfPath = true;
-            return;
+        bool playerdetect = isPlayerDetected();
+        Debug.Log(playerdetect);
+        Debug.Log(Vector2.Distance(transform.position, playerPos.position));
+        Debug.Log(distance);
+            if(path == null) return;
+            
+            if(currentWaypoint >= path.vectorPath.Count){
+                reachedEndOfPath = true;
+                return;
+            }
+            else reachedEndOfPath = false;
+        if(playerdetect){
+
+            Vector2 direction = ((Vector2)path.vectorPath[currentWaypoint] - rb.position).normalized;
+            Vector2 force = direction * speed * Time.deltaTime;
+
+            rb.AddForce(force);
+
+            float distance = Vector2.Distance(rb.position, path.vectorPath[currentWaypoint]);
+
+            if(distance < nextWaypointDistance) currentWaypoint++;
         }
-        else reachedEndOfPath = false;
-
-        Vector2 direction = ((Vector2)path.vectorPath[currentWaypoint] - rb.position).normalized;
-        Vector2 force = direction * speed * Time.deltaTime;
-
-        rb.AddForce(force);
-
-        float distance = Vector2.Distance(rb.position, path.vectorPath[currentWaypoint]);
-
-        if(distance < nextWaypointDistance) currentWaypoint++;
+        else{
+            transform.position = Vector2.MoveTowards(transform.position, currentPos, 10f * Time.deltaTime);
+        }
+    }
+    bool isPlayerDetected(){
+        if(Vector2.Distance(transform.position, playerPos.position) < distance){
+            Debug.Log("masuk");
+            return true;
+        } 
+        else return false;
     }
 }
