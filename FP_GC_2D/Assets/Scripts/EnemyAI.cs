@@ -43,9 +43,11 @@ public class EnemyAI : MonoBehaviour
     void FixedUpdate()
     {
         bool playerdetect = isPlayerDetected();
+        /*
         Debug.Log(playerdetect);
         Debug.Log(Vector2.Distance(transform.position, playerPos.position));
         Debug.Log(distance);
+        */
             if(path == null) return;
             
             if(currentWaypoint >= path.vectorPath.Count){
@@ -70,7 +72,7 @@ public class EnemyAI : MonoBehaviour
     }
     bool isPlayerDetected(){
         if(Vector2.Distance(transform.position, playerPos.position) < distance){
-            Debug.Log("masuk");
+            //Debug.Log("masuk");
             return true;
         } 
         else return false;

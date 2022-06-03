@@ -4,28 +4,53 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
-    Rigidbody2D rb;
-    [SerializeField] private float jumpForce = 10f;
-    [SerializeField] private float speed = 5f;
-    // Start is called before the first frame update
-    void Start()
-    {
-        rb = GetComponent<Rigidbody2D>();
-    }
 
-    // Update is called once per frame
-    void Update()
-    {
-        // Debug.Log(isGrounded());
-        float dirX = Input.GetAxisRaw("Horizontal");
-        rb.velocity = new Vector2(dirX * speed, rb.velocity.y);
+	public CharacterController2D controller;
+	public Animator animator;
 
-        if(Input.GetButtonDown("Jump") && isGrounded()){
-            rb.velocity = new Vector2(rb.velocity.x, jumpForce);
-        }
-    }
+	public float runSpeed = 40f;
 
-    private bool isGrounded(){
-        return transform.Find("GroundCheck").GetComponent<GroundCheck>().isGrounded;
-    }
+	float horizontalMove = 0f;
+	bool jump = false;
+	bool crouch = false;
+
+	// Update is called once per frame
+	void Update()
+	{
+
+		horizontalMove = Input.GetAxisRaw("Horizontal") * runSpeed;
+		animator.SetFloat("Speed", Mathf.Abs(horizontalMove));
+
+		if (Input.GetButtonDown("Jump"))
+		{
+			jump = true;
+			animator.SetBool("isJumping", true);
+		}
+
+		if (Input.GetKeyDown(KeyCode.DownArrow))
+		{
+			crouch = true;
+		}
+		else if (Input.GetKeyUp(KeyCode.DownArrow))
+		{
+			crouch = false;
+		}
+	}
+
+	public void OnLanding()
+	{
+		animator.SetBool("isJumping", false);
+	}
+
+	public void OnCrouching(bool isCrouching)
+	{
+		animator.SetBool("isCrouching", isCrouching);
+	}
+
+	void FixedUpdate()
+	{
+		// Move our character
+		controller.Move(horizontalMove * Time.fixedDeltaTime, crouch, jump);
+		jump = false;
+	}
 }
