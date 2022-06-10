@@ -24,9 +24,9 @@ public class GameManager : MonoBehaviour
 
     public void RestartButton()
     {
-        //GameOverScreen.isOver = false;
+        GameOverScreen.isOver = false;
         Time.timeScale = 1;
-        //SceneManager.LoadScene("MainGame");
+        SceneManager.LoadScene("Level 1");
     }
 
     public void ResumeButton()
