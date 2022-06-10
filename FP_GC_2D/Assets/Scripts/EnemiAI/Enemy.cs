@@ -28,5 +28,7 @@ public class Enemy : MonoBehaviour
     void Die()
     {
         Debug.Log("Enemy Died");
+        Destroy(gameObject);
+        FindObjectOfType<GameManager>().enemyDieCount++;
     }
 }

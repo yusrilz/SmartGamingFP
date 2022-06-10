@@ -18,7 +18,7 @@ public class Player : MonoBehaviour
         if (co.gameObject.tag == "Enemy")
         {
             Debug.Log("Aku kena Enemy Gais");
-            currentHealth -= Random.Range(5f, 10f);
+            currentHealth -= Random.Range(2f, 5f);
             healthbar.UpdateHealthBar(maxHealth, currentHealth);
         }
     }
@@ -27,12 +27,13 @@ public class Player : MonoBehaviour
     {
         if (currentHealth <= 0)
         {
-            //FindObjectOfType<GameManager>().GameOver();
+            Destroy(gameObject);
+            FindObjectOfType<GameManager>().GameOver();
         }
 
-        if (Input.GetKeyDown(KeyCode.Escape))
-        {
+        //if (Input.GetKeyDown(KeyCode.Escape))
+        //{
             //FindObjectOfType<GameManager>().Paused();
-        }
+        //}
     }
 }

@@ -8,9 +8,6 @@ public class MainMenu : MonoBehaviour
     public void Play(){
         SceneManager.LoadScene("Level 1");
     }
-    public void LevelSelect(){
-        SceneManager.LoadScene("LevelSelector");
-    }
     public void Quit(){
         Application.Quit();
         Debug.Log("quit");
