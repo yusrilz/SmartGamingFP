@@ -27,11 +27,11 @@ public class PlayerMovement : MonoBehaviour
 			animator.SetBool("isJumping", true);
 		}
 
-		if (Input.GetKeyDown(KeyCode.DownArrow))
+		if (Input.GetKeyDown(KeyCode.S))
 		{
 			crouch = true;
 		}
-		else if (Input.GetKeyUp(KeyCode.DownArrow))
+		else if (Input.GetKeyUp(KeyCode.S))
 		{
 			crouch = false;
 		}
