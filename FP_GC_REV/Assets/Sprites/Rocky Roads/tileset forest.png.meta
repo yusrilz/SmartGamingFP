@@ -93,7 +93,7 @@ TextureImporter:
       213: -9105419383488405500
     second: tileset forest_29
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -114,6 +114,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -152,6 +153,7 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -167,6 +169,42 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -820,6 +858,37 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      tileset forest_11: 3602273324468364295
+      tileset forest_3: 5250438905216562251
+      tileset forest_25: -6943034171845280187
+      tileset forest_14: 4613884383946028670
+      tileset forest_4: -1904368202763784301
+      tileset forest_9: 6431693731976787965
+      tileset forest_6: -5786697115911014089
+      tileset forest_16: -7544596776673545114
+      tileset forest_15: 1688883138899324475
+      tileset forest_23: -6849298667742332428
+      tileset forest_24: 6246799122456575235
+      tileset forest_8: -7948743299202067026
+      tileset forest_10: 3026519520777891294
+      tileset forest_27: 9075680557787820027
+      tileset forest_20: -5731104385428174685
+      tileset forest_26: -5977633494493148622
+      tileset forest_12: 4329806902271271334
+      tileset forest_17: -7733731091803686376
+      tileset forest_1: -5476419963381330631
+      tileset forest_18: -4928852782113612984
+      tileset forest_19: -166933693323054501
+      tileset forest_2: -3327071671685733604
+      tileset forest_13: -9059804103627699155
+      tileset forest_28: 7714043656082062843
+      tileset forest_22: 312714921291559478
+      tileset forest_21: 7111330093438779271
+      tileset forest_29: -9105419383488405500
+      tileset forest_0: 7146710957975650767
+      tileset forest_5: 4062145435029123122
+      tileset forest_7: -7143626506686321329
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

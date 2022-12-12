@@ -8,7 +8,7 @@ public class PlayerCombat : MonoBehaviour
     public Transform attackPoint;
     public float attackRange = 0.5f;
     public LayerMask enemyLayers;
-    public int attackDamage = 50;
+    [SerializeField] public int attackDamage = 50;
     // Update is called once per frame
     void Update()
     {

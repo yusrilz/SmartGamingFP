@@ -6,8 +6,22 @@ using UnityEngine.SceneManagement;
 public class GameManager : MonoBehaviour
 {
     public GameOverScreen gameOverScreen;
+    public WinScreen winScreen;
     //public PauseScreen pauseScreen;
     public int enemyDieCount = 0;
+    [SerializeField] private int winPoint = 25;
+    [SerializeField] private string level;
+    public void Update(){
+        if(enemyDieCount == winPoint){
+            Debug.Log("you win");
+            Time.timeScale = 0;
+            winScreen.Setup();
+        }
+    }
+
+    public void Win(){
+        
+    }
     public void GameOver()
     {
         Time.timeScale = 0;
@@ -40,5 +54,10 @@ public class GameManager : MonoBehaviour
     {
         Time.timeScale = 1;
         SceneManager.LoadScene(0);
+    }
+    public void nextButton(string level){
+        WinScreen.isOver = false;
+        Time.timeScale = 1;
+        SceneManager.LoadScene(level);  
     }
 }

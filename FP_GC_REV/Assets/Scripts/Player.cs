@@ -6,6 +6,7 @@ public class Player : MonoBehaviour
 {
     [SerializeField] private float maxHealth = 100f;
     [SerializeField] private Healthbar healthbar;
+    [SerializeField] private float enemyDamage = 1f;
     private float currentHealth;
 
     private void Start()
@@ -18,7 +19,7 @@ public class Player : MonoBehaviour
         if (co.gameObject.tag == "Enemy")
         {
             Debug.Log("Aku kena Enemy Gais");
-            currentHealth -= Random.Range(2f, 5f);
+            currentHealth -= enemyDamage;
             healthbar.UpdateHealthBar(maxHealth, currentHealth);
         }
     }
