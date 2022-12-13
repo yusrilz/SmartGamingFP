@@ -626,7 +626,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: Level 2
+          m_StringArgument: MainMenu
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &417228047
@@ -2417,7 +2417,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   transitionAnim: {fileID: 1334636593}
-  levelToLoad: Level 2
+  levelToLoad: Level 3
 --- !u!4 &1113088433
 Transform:
   m_ObjectHideFlags: 0
@@ -2567,7 +2567,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1334636592
 RectTransform:
   m_ObjectHideFlags: 0
@@ -5709,7 +5709,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemyPrefab: {fileID: 2814176407749741360, guid: 080d4c46f80dd884abc7466ee0114dde, type: 3}
-  interval: 3.5
+  interval: 3
 --- !u!4 &1809034162
 Transform:
   m_ObjectHideFlags: 0
