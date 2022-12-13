@@ -10,7 +10,8 @@ public class GameManager : MonoBehaviour
     //public PauseScreen pauseScreen;
     public int enemyDieCount = 0;
     [SerializeField] private int winPoint = 25;
-    [SerializeField] private string level;
+    // [SerializeField] private string level;
+    public SceneTransition sceneTransitionManager;
     public void Update(){
         if(enemyDieCount == winPoint){
             Debug.Log("you win");
@@ -58,6 +59,7 @@ public class GameManager : MonoBehaviour
     public void nextButton(string level){
         WinScreen.isOver = false;
         Time.timeScale = 1;
-        SceneManager.LoadScene(level);  
+        // SceneManager.LoadScene(level);  
+        StartCoroutine(sceneTransitionManager.LoadLevel());
     }
 }

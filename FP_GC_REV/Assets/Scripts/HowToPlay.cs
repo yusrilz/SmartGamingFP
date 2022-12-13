@@ -5,8 +5,9 @@ using UnityEngine.SceneManagement;
 
 public class HowToPlay : MonoBehaviour
 {
+    public SceneTransition sceneTransitionManager;
     public void Next()
     {
-        SceneManager.LoadScene("Level 1");
+        StartCoroutine(sceneTransitionManager.LoadLevel());
     }
 }
