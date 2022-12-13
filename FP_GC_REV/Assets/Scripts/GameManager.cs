@@ -37,7 +37,7 @@ public class GameManager : MonoBehaviour
     {
         GameOverScreen.isOver = false;
         Time.timeScale = 1;
-        SceneManager.LoadScene("Level 1");
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 
     public void ResumeButton()
