@@ -15,13 +15,9 @@ public class GameManager : MonoBehaviour
     public void Update(){
         if(enemyDieCount == winPoint){
             Debug.Log("you win");
-            Time.timeScale = 0;
+            // Time.timeScale = 0;
             winScreen.Setup();
         }
-    }
-
-    public void Win(){
-        
     }
     public void GameOver()
     {
@@ -58,7 +54,7 @@ public class GameManager : MonoBehaviour
     }
     public void nextButton(string level){
         WinScreen.isOver = false;
-        Time.timeScale = 1;
+        // Time.timeScale = 1;
         SceneManager.LoadScene(level);  
         // StartCoroutine(sceneTransitionManager.LoadLevel());
     }
