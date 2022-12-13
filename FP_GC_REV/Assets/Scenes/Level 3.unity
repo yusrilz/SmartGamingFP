@@ -626,7 +626,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: Level 3
+          m_StringArgument: Level 4
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &417228047
@@ -2139,7 +2139,7 @@ MonoBehaviour:
   enemyLayers:
     serializedVersion: 2
     m_Bits: 128
-  attackDamage: 50
+  attackDamage: 40
 --- !u!114 &885635674
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2152,9 +2152,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0295240e5d2f37047a45b6ed43dae437, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 100
+  maxHealth: 80
   healthbar: {fileID: 577150522}
-  enemyDamage: 1
+  enemyDamage: 3
 --- !u!1 &906677743
 GameObject:
   m_ObjectHideFlags: 0
@@ -5594,7 +5594,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: / 30
+  m_Text: / 35
 --- !u!222 &1761201632
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5709,7 +5709,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemyPrefab: {fileID: 2814176407749741360, guid: 080d4c46f80dd884abc7466ee0114dde, type: 3}
-  interval: 3
+  interval: 2.5
 --- !u!4 &1809034162
 Transform:
   m_ObjectHideFlags: 0
@@ -5958,7 +5958,7 @@ MonoBehaviour:
   gameOverScreen: {fileID: 426044688}
   winScreen: {fileID: 246905155}
   enemyDieCount: 0
-  winPoint: 30
+  winPoint: 40
 --- !u!4 &1900412506
 Transform:
   m_ObjectHideFlags: 0
